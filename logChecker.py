@@ -8,6 +8,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 # Author: Moti Ostrovski - motio@edp.co.il
 # Date: 06.12.2018
+# Update: 19.02.2019
 # Description: This script monitors IDM drivers log status.
 #         The script search for all the drivers in a driver folder, and for each one of them,
 #         it check if the driver log is changing, or if driver name is in excludedLogsFolders - it's state OK.
